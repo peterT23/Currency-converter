@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curency convertion</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <div class="exchange-rate">
+        <div id="base-unit"></div>
+        <div id="target-rate"></div>
+      </div>
+      <div class="input-group">
+        <input type="number" id="base-amount" class="input-box" />
+        <select class="select-box" id="base-code">
+          <!-- <option value="VND">Vietnamese Dong</option>
+            <option value="USD">USD dollars</option> -->
+        </select>
+        <input type="number" id="target-amount" class="input-box" />
+        <select class="select-box" id="target-code">
+          <!-- <option value="VND">Vietnamese Dong</option>
+            <option value="USD">USD dollars</option> -->
+        </select>
+      </div>
+      <p class="error-message"></p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
